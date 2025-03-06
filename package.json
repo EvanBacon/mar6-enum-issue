@@ -10,6 +10,7 @@
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint",
+    "prepare": "npx patch-package",
     "export": "expo export -p web && npx expo serve"
   },
   "jest": {
